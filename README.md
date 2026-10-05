@@ -9,7 +9,11 @@ Example: add this to your lair.bat, or lair.commands, this command is documented
 -usbscoreboard COM 6 115200
 
 1) Program ESP32 with my code, scoreboard.ino (and control what com port is used)
-2) Diconnect ESP32, and connect 2 modules MAX7219, see schematic.txt
-3) Modify your lair.bat or lair.commands, adding -usbscoreboard COM 6 115200, at the end of the file
-4) Reconnect your Esp32 to USB port of your pc (the same port used to program with Arduino IDE)
-5) Launch Hypseus lair.bat and scoreboard works!
+2) Diconnect ESP32, and connect 2 modules MAX7219, see my: schematic.txt
+3) Modify your lair.bat or lair.commands, adding:
+   
+    -usbscoreboard COM 6 115200
+   
+   (at the end of the file)
+5) Reconnect your Esp32 to USB port of your pc (the same port used to program with Arduino IDE)
+6) Launch Hypseus lair.bat and scoreboard works!
