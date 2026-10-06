@@ -1,7 +1,7 @@
 Tanks to DirtBagXon, for External Hypseus Singe Scoreboard for Dragon's Lair game,
 see original project: https://github.com/DirtBagXon/hypseus_scoreboard
 
-Watch video for this project: https://youtu.be/NafDWzedd7g?si=RvfrlTbz5X83yFe-
+Watch my video for demonstration of this project: https://youtu.be/NafDWzedd7g?si=RvfrlTbz5X83yFe-
 
 <img width="1302" height="628" alt="immagine" src="https://github.com/user-attachments/assets/b04cdf04-1149-49a0-a282-417559da4259" />
 
