@@ -7,18 +7,18 @@ Watch my video for demonstration of this project: https://youtu.be/NafDWzedd7g?s
 
 
 
-I rewrote ALL Code and Adjusted to use only N.2 MAX7219 modules, for 2 Players, (a great saves of money)
-and FINALLY WORKS (!) for ESP32 Wroom Dvkit v1 - (30 PIN), adding parameter, on lair.bat files, with right number of COM (1 or 2...or 6 ,etc),
-at 115200 on COM "x" PC Port.
+I rewrote ALL the Original Code and Adjusted to use only n.2 MAX7219 modules, for 2 Players, instead of n.5 MAX7219 modules (a great saves of money)
+and FINALLY WORKS (!) for ESP32 Wroom Dev kit v1 - (30 PIN).
 
 System Requirements:
 - You must have Hypseus installed and working on your pc: https://github.com/DirtBagXon/hypseus-singe
 - You must have an original copy of Dragon's Lair game working.
 - You must have Arduino Ide installed and working on your pc
-- You must have an ESP32 Wroom Kit 30 pin
+- You must have an ESP32 Wroom Dev Kit v1 - 30 pin (i think it can works also on ESP32 38 PIN, take care of schematic.txt connections)
 - You must have 2 modules "MAX7219 8-Digit LED Display", and 10 "dupont cables" to connect ESP32 to Max7219 in daisy chain (see schematic.txt)
 - The project uses serial communication with an Esp32 30 PIN driving n.2 "MAX7219 8-Digit LED Display" to power 7-segment LED.
-The provided sketches demonstrate the serial communication (using serialib) between hypseus and the Arduino IDE. 
+
+The provided sketch (scoreboard.ino) demonstrate the serial communication (using serialib) between hypseus and the Arduino IDE. 
 These should be portable to other programmable microcontrollers able to handle serial communication.
 
 - Required By Arduino IDE libraries: "LEDControl" and "SerialLib"
