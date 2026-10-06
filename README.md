@@ -1,6 +1,12 @@
 Tanks to DirtBagXon, for External Hypseus Singe Scoreboard for Dragon's Lair game,
 see original project: https://github.com/DirtBagXon/hypseus_scoreboard
 
+Watch video for this project: https://youtu.be/NafDWzedd7g?si=RvfrlTbz5X83yFe-
+
+<img width="1302" height="628" alt="immagine" src="https://github.com/user-attachments/assets/b04cdf04-1149-49a0-a282-417559da4259" />
+
+
+
 I rewrote ALL Code and Adjusted to use only N.2 MAX7219 modules, for 2 Players, (a great saves of money)
 and FINALLY WORKS (!) for ESP32 Wroom Dvkit v1 - (30 PIN), adding parameter, on lair.bat files, with right number of COM (1 or 2...or 6 ,etc),
 at 115200 on COM "x" PC Port.
