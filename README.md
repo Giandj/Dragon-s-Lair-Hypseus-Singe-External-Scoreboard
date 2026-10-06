@@ -9,6 +9,8 @@ System Requirements:
 - You must have Hypseus installed and working on your pc: https://github.com/DirtBagXon/hypseus-singe
 - You must have an original copy of Dragon's Lair game working.
 - You must have Arduino Ide installed and working on your pc
+- You must have an ESP32 Wroom Kit 30 pin
+- You must have 2 modules "MAX7219 8-Digit LED Display", and 10 "dupont cables" to connect ESP32 to Max7219 in daisy chain (see schematic.txt)
 - The project uses serial communication with an Esp32 30 PIN driving n.2 "MAX7219 8-Digit LED Display" to power 7-segment LED.
 The provided sketches demonstrate the serial communication (using serialib) between hypseus and the Arduino IDE. 
 These should be portable to other programmable microcontrollers able to handle serial communication.
