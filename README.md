@@ -10,6 +10,10 @@ Watch my video for demonstration of this project: https://youtu.be/NafDWzedd7g?s
 I rewrote ALL the Original Code and Adjusted to use only n.2 MAX7219 modules, for 2 Players, instead of n.5 MAX7219 modules (a great saves of money)
 and FINALLY WORKS (!) for ESP32 Wroom Dev kit v1 - (30 PIN).
 
+<img width="1616" height="871" alt="immagine" src="https://github.com/user-attachments/assets/be034d43-734e-4adb-a938-a0326a73fc44" />
+
+
+
 System Requirements:
 - You must have Hypseus installed and working on your pc: https://github.com/DirtBagXon/hypseus-singe
 - You must have an original copy of Dragon's Lair game working.
